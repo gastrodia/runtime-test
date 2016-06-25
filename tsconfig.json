@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "outFile": "./dist/all.js",
+        "sourceMap": true,
+        "target": "ES5",   
+      "allowJs": false,
+      "noImplicitAny": false,
+      "removeComments": true,
+      "noLib": false,
+      "preserveConstEnums": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+
+      "noImplicitUseStrict": true,
+      "jsx": "react",
+        "moduleResolution":"node"
+    }
+}
+// {
+//     "compilerOptions": {
+//         "module": "commonjs",
+//         "outDir": "./build",
+//         "sourceMap": true,
+//         "target": "ES5",
+//         "moduleResolution":"node"
+//     }
+// }
